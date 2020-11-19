@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fbfefb;
+  margin: 0;
+  color: black;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #f3d8c7;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+.profile .yogaphoto {
+  max-width: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.post-title {
+  text-align: center;
+}
+.post-content {
+  text-align: center;
+}
+#header {
+  background-color: #f3d8c7;
+  height: 140px;
+  line-height: 150px;
+  margin-bottom: 10px;
+}
+#header a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+#footer {
+  background-color: #f3d8c7;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+#footer h3 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: #f5f1da;
+}
+#footer .column {
+  min-width: 300px;
+  text-align: center;
+  vertical-align: top;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post,
+.about,
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.about h2 {
+  text-align: center;
+}
+
+/* Contact */
+.contact {
+  max-width: 600px;
+}
+.contact h2,
+p {
+  text-align: center;
+}
+.contact p {
+  margin-top: 30px;
+}
+.contact-details {
+  text-align: center;
+}
+
+.calendar {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.calendar th,
+.calendar td {
+  border: 1px solid #f3d8c7;
+  padding: 0.5rem;
+}
+
+.post-author img {
+  width: 160px;
+  height: 160px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.post-author span {
+  margin-left: 16px;
+}
+
+button {
+  display: block;
+  line-height: 32px;
+  margin: 20px auto;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff6b6b;
+
+  outline: none;
+  padding: 16px 24px;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #f3d8c7;
+}
+button a {
+  font-weight: normal;
+}
