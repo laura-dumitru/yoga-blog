@@ -21,88 +21,106 @@
         </ul>
       </div>
     </div>
-    
-    <table class="calendar">
-      <thead>
-        <tr>
-          <th colspan="3">Class Timetable Monday-Sunday</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Rise and Shine Yoga</td>
-          <td>8:00</td>
-          <td>Maria</td>
-          <td>All levels</td>
-        </tr>
-        <tr>
-          <td>Vinyasa Flow</td>
-          <td>9:15</td>
-          <td>Jane</td>
-          <td>Advanced</td>
-        </tr>
-        <tr>
-          <td>Yoga for everyone</td>
-          <td>11:00</td>
-          <td>Maqs</td>
-          <td>Beginners</td>
-        </tr>
-        <tr>
-          <td>Yoga for stress release</td>
-          <td>13:00</td>
-          <td>Johanna</td>
-          <td>All levels</td>
-        </tr>
-        <tr>
-          <td>Kundalini Yoga</td>
-          <td>14:30</td>
-          <td>Antonia</td>
-          <td>Intermediate</td>
-        </tr>
 
-        <tr>
-          <td>Breathing Techniques</td>
-          <td>16:00</td>
-          <td>Daniel</td>
-          <td>All levels</td>
-        </tr>
-        <tr>
-          <td>Hatha Yoga</td>
-          <td>17:00</td>
-          <td>Jane</td>
-          <td>Beginners</td>
-        </tr>
-        <tr>
-          <td>Hatha Yoga</td>
-          <td>17:30</td>
-          <td>Valerie</td>
-          <td>Advanced</td>
-        </tr>
-        <tr>
-          <td>Yin Yoga</td>
-          <td>18:30</td>
-          <td>Antonia</td>
-          <td>All levels</td>
-        </tr>
-        <tr>
-          <td>Ashtanga Yoga</td>
-          <td>19:00</td>
-          <td>Kam</td>
-          <td>Intermediate</td>
-        </tr>
-        <tr>
-          <td>Vinyasa Flow</td>
-          <td>19:30</td>
-          <td>Jane</td>
-          <td>All levels</td>
-        </tr>
-        <tr>
-          <td>Yoga for wind down and sleep</td>
-          <td>20:00</td>
-          <td>Daniel</td>
-          <td>All levels</td>
-        </tr>
-      </tbody>
+    <table id="calendar">
+      <caption>
+        Class Timetable
+      </caption>
+      <tr class="weekdays">
+        <th scope="col">Sun</th>
+        <th scope="col">Mon</th>
+        <th scope="col">Tue</th>
+        <th scope="col">Wed</th>
+        <th scope="col">Thu</th>
+        <th scope="col">Fri</th>
+        <th scope="col">Sat</th>
+      </tr>
+
+      <tr class="days">
+        <td class="day other-month">
+          <div class="event">
+            <div class="event-desc">Rise and Shine Yoga All Levels Maria</div>
+
+            <div class="event-time">9:00am to 9:45am</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Ashtanga Yoga Advanced Johanna</div>
+
+            <div class="event-time">4:00pm to 4:45pm</div>
+          </div>
+        </td>
+        <td class="day other-month">
+          <div class="event">
+            <div class="event-desc">Hatha Yoga All Levels Antonia</div>
+            <div class="event-time">8:30am to 9:15am</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Vinyasa Flow Intermediate Jane</div>
+            <div class="event-time">10:30am to 11:15am</div>
+          </div>
+        </td>
+        <td class="day other-month">
+          <div class="event">
+            <div class="event-desc">Rise and Shine Yoga All Levels Laura</div>
+            <div class="event-time">8:30am to 9:15am</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Breathing Techniques All Levels Daniel</div>
+            <div class="event-time">1:00pm to 1:45pm</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Hatha Yoga Intermediate Antonia</div>
+            <div class="event-time">6:00pm to 6:45pm</div>
+          </div>
+        </td>
+        <td class="day other-month">
+          <div class="event">
+            <div class="event-desc">Ashtanga Yoga Beginners Maria</div>
+            <div class="event-time">9:00am to 9:45am</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Kundalini Yoga Intermediate Maqs</div>
+            <div class="event-time">6:30pm to 7:15pm</div>
+          </div>
+        </td>
+        <td class="day other-month">
+          <div class="event">
+            <div class="event-desc">Morning Flow Beginners Laura</div>
+            <div class="event-time">8:30am to 9:15am</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">Yin Yoga All levels Antonia</div>
+            <div class="event-time">6:30pm to 7:15pm</div>
+          </div>
+        </td>
+
+        <td class="day">
+          <div class="event">
+            <div class="event-desc">Breathing Techniques All Levels Daniel</div>
+            <div class="event-time">1:00pm to 1:45pm</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">
+              Yoga for stress release All levels Johanna
+            </div>
+            <div class="event-time">5:30pm to 6:45pm</div>
+          </div>
+        </td>
+        <td class="day">
+          <div class="event">
+            <div class="event-desc">Rise and Shine Yoga All Levels Valerie</div>
+
+            <div class="event-time">9:00am to 9:45am</div>
+          </div>
+          <div class="event">
+            <div class="event-desc">
+              Yoga for a better sleep All Levels Daniel
+            </div>
+
+            <div class="event-time">7:00pm to 7:45pm</div>
+          </div>
+        </td>
+      </tr>
     </table>
 
     <div id="footer">
@@ -121,5 +139,7 @@
             </a>
           </p>
         </div>
+      </div>
+    </div>
   </body>
 </html>
