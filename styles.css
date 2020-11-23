@@ -26,18 +26,30 @@ p {
 }
 
 img {
-  max-width: 200px;
   display: block;
+  max-width: 200px;
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  border-radius: 100px;
+  border-radius: 50%;
 }
-.profile .yogaphoto {
-  max-width: 60px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
+.yogaphoto {
+  float: left;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  margin-right: 32px;
+}
+.story {
+  text-align: left;
+}
+.story * {
+  float: right;
+}
+.story strong,
+.story em {
+  float: none;
 }
 
 li {
@@ -69,6 +81,10 @@ li {
   font-size: 20px;
   font-weight: bold;
 }
+#header-title:before {
+  content: "🧘🏻‍♀️";
+}
+
 #header-nav {
   display: block;
   float: right;
@@ -80,6 +96,7 @@ li {
 }
 
 #footer {
+  position: sticky;
   background-color: #f3d8c7;
   padding: 20px 0;
   margin-top: 20px;
@@ -108,10 +125,14 @@ a {
 .contact {
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .about h2 {
   text-align: center;
+}
+
+.about img {
+  margin-bottom: 32px;
 }
 
 /* Contact */
@@ -129,22 +150,16 @@ p {
   text-align: center;
 }
 
-/*
 #calendar {
-  border-collapse: collapse;
-  margin: 0 auto;
-}
-#calendar th,
-#calendar td {
-  border: 1px solid #f3d8c7;
-  padding: 0.5rem;
-}*/
-
-/* declare a 7 column grid on the table */
-#calendar {
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 64px;
+}
+#calendar caption {
+  margin-bottom: 20px;
 }
 
 #calendar tr,
@@ -168,11 +183,15 @@ caption {
   text-decoration: none;
 }
 
-#calendar td,
-#calendar th {
-  padding: 5px;
+#calendar th,
+#calendar td {
+  padding: 10px;
   box-sizing: border-box;
   border: 1px solid #f3d8c7;
+}
+#calendar th:not(:first-child),
+#calendar td:not(:first-child) {
+  border-left: none;
 }
 
 #calendar .weekdays {
@@ -203,8 +222,8 @@ caption {
   flex: 0 0 auto;
   font-size: 13px;
   border-radius: 4px;
-  padding: 5px;
-  margin-bottom: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
   line-height: 14px;
   background: #f3d8c7;
   border: 1px solid #f3d8c7;
@@ -214,14 +233,10 @@ caption {
 
 #calendar .event-desc {
   color: black;
-  margin: 3px 0 7px 0;
+  margin: 3px 0 8px 0;
   text-decoration: none;
   font-weight: bold;
 }
-
-/* ============================
-				Mobile Responsiveness
-   ============================*/
 
 @media (max-width: 768px) {
   #calendar .weekdays,
