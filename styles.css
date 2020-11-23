@@ -71,7 +71,6 @@ li {
 #header a {
   color: black;
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
@@ -103,7 +102,6 @@ li {
 }
 #footer h3 {
   color: black;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 #footer p {
