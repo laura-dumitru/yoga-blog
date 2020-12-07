@@ -1,53 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <a id="header-title" href="index.html"><em>Yoga with Laura</em></a>
-        <ul id="header-nav">
-          <li><a href="about.html">About</a></li>
-          <li><a href="timetable.html">Timetable</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+import React from "react";
+import downdog from "./img/downdog.jpeg";
+import first from "./img/first.jpg";
+import forwardfold from "./img/forwardfold.jpg";
+import lunge from "./img/lunge.jpg";
+import plank from "./img/plank.jpg";
+import warrior from "./img/warrior.jpg";
 
+export default function Home() {
+  return (
     <div id="content">
-      <div class="post-container">
-        <div class="post">
-          <div class="post-author">
-            <img src="img/first.jpg" class="profile" />
+      <div className="post-container">
+        <div className="post">
+          <div className="post-author">
+            <img src={first} className="profile" alt="" />
             <br />
           </div>
 
-          <p class="post-title">
-            A warm welcome to <strong><em>Yoga with Laura</em></strong
-            >, your place for Yoga poses, classes and more. Do you want the
-            convenience of a Yoga class without leaving your house? Do you want
-            to get healthier, fitter and stronger? We've got you covered with
-            our life changing Yoga classes!
+          <p className="post-title">
+            A warm welcome to
+            <strong>
+              <em>Yoga with Laura</em>
+            </strong>
+            , your place for Yoga poses, classes, tips, techniques and more.
+            Yoga has the power to transform your body and your mind. Do you want
+            the convenience of a Yoga class without leaving your house? Do you
+            want to work on yourself, get healthier, fitter and stronger? Then
+            look no further, we've got you covered with our life changing Yoga
+            classes! If this sounds like something you are looking for, join our
+            specially designed 45 minute classes to get fit, lose weight and
+            feel amazing. We welcome all levels of Yoga into our community.
+            Let's step onto the mat and build some healthy habits together!
           </p>
-          <div class="post-content">
+          <hr />
+          <div className="post-content">
             <p>
-              Yoga has the power to transform your body and your mind. Join our
-              specially designed 45 minute classes to get fit, lose weight and
-              feel amazing. All levels of Yoga are welcome.
-              <br />
-              Let's build some healthy habits together!
+              Take a sneak peak below into some of the poses we love to
+              practice!
             </p>
-            <hr />
-            <br />
-            Take a sneak peak below into some of the poses we love to practice!
             <ul>
               <li>
                 <h4>Forward Fold</h4>
@@ -59,7 +48,7 @@
                   into the upper thighs. This posture is great for relieving
                   tension in the spine, neck and back.
                 </p>
-                <img src="img/forwardfold.jpg" />
+                <img src={forwardfold} alt="" />
               </li>
               <hr />
               <h4>Warrior III</h4>
@@ -73,7 +62,7 @@
                 against a wall behind you. Straighten your standing leg and hold
                 this pose for 30 seconds. <em>Warrior III</em> helps build your
                 balance and strength.
-                <img src="img/warrior.jpg" />
+                <img src={warrior} alt="" />
               </p>
 
               <li>
@@ -86,10 +75,11 @@
                   and back into the air. Straighten your legs, spread your
                   fingers, let your head hang and move your shoulder blades away
                   from your ears towards your hips. This allows your body to
-                  stretch fully.<br />
+                  stretch fully.
+                  <br />
                   If you struggle during this pose you can always place your
                   hands on yoga blocks.
-                  <img src="img/downdog.jpeg" />
+                  <img src={downdog} alt="" />
                 </p>
               </li>
               <li>
@@ -104,8 +94,7 @@
                   away from the thigh, sweeping your arms up alongside your ears
                   or place them on your leg. Exhale and lower your hands down
                   into a <em>Downward Facing Dog. </em>
-
-                  <img src="img/lunge.jpg" />
+                  <img src={lunge} alt="" />
                 </p>
               </li>
 
@@ -120,31 +109,13 @@
                   under and step back with your feet, bringing your body and
                   head into one straight line. Try to hold the pose for 5
                   breaths. To release, slowly lower back onto your knees.
-                  <img src="img/plank.jpg" />
+                  <img src={plank} alt="" />
                 </p>
               </li>
             </ul>
           </div>
         </div>
-        <div id="footer">
-          <div class="post-container">
-            <div class="column">
-              <h3>Our Links</h3>
-              <p>
-                <a
-                  href="https://www.facebook.com/groups/1466503350210644/about"
-                  target="_blank"
-                  >Facebook</a
-                >
-                <br />
-                <a href="https://twitter.com/lau_ramona" target="_blank"
-                  >Twitter</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-  </body>
-</html>
+  );
+}
