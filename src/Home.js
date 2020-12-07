@@ -34,8 +34,8 @@ export default function Home() {
           <hr />
           <div className="post-content">
             <p>
-              Take a sneak peak below into some of the poses we love to
-              practice!
+              Take a sneak peak below into this month's article - Poses we love
+              to practice!
             </p>
             <ul>
               <li>
