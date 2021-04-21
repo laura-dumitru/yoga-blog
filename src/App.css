@@ -74,6 +74,9 @@ img {
 .warrior {
   height: 10px;
 }
+.flowers {
+  max-height: 550px;
+}
 
 strong {
   font-weight: bold;
@@ -169,7 +172,7 @@ a {
   padding: 20px 0;
 }
 .about {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .about h2 {
   text-align: center;
@@ -196,6 +199,10 @@ a {
 .contact-details,
 .community {
   text-align: center;
+}
+.confirmation {
+  color: black;
+  margin-left: 140px;
 }
 
 caption {

@@ -120,7 +120,7 @@ export default function Home() {
                   squeeze your shoulder blades together. Lift your head up to
                   the sky and gaze at your hands. Smile. Hold your pose and then
                   repeat on the left side.
-                  <img src={flowers} alt="" />
+                  <img src={flowers} alt="" class="flowers" />
                 </p>
               </li>
             </ul>
