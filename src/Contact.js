@@ -12,7 +12,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="contact">
+    <div className="post-container">
       <h2>How to book a class?</h2>
       <img src={tree} className="treePose" alt="" />
       <p>

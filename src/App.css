@@ -8,7 +8,7 @@ body {
   font-family: "Alice", serif;
   font-weight: lighter;
   color: rgb(63, 62, 62);
-  background-color: #f8f5f4;
+  background-color: white;
   padding: 0;
   margin: 0;
   display: flex;
@@ -32,8 +32,11 @@ h4 {
 
 hr {
   border: none;
-  border-top: 1px solid #d8f8fd;
+  border-top: 1px solid #a3dde6;
   margin: 20px auto;
+}
+.about-hr {
+  width: 100%;
 }
 
 p {
@@ -55,22 +58,6 @@ img {
   margin-top: 20px;
 }
 
-.yogaphoto {
-  float: left;
-  border-radius: 0;
-  padding: 0;
-  margin: 0;
-  margin-top: 4px;
-  margin-right: 32px;
-  max-height: 400px;
-}
-.treePose {
-  display: block;
-  max-width: 380px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
 .warrior {
   height: 10px;
 }
@@ -97,6 +84,10 @@ li {
   list-style: none;
 }
 
+.post-container {
+  margin: 0 32px;
+}
+
 .post-title {
   text-align: left;
 }
@@ -116,9 +107,9 @@ li {
 }
 
 #header {
-  background-color: #d8f8fd;
+  background-color: #dbfaff;
   line-height: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 32px;
 }
 #header a {
   text-decoration: none;
@@ -148,7 +139,7 @@ li {
   flex-shrink: 0;
   background-color: #d8f8fd;
   padding: 20px 0;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 #footer h3 {
   letter-spacing: 0.1em;
@@ -164,22 +155,16 @@ a {
   font-weight: bold;
 }
 
-.post,
-.about,
-.contact {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px 0;
-}
-.about {
-  margin-bottom: 40px;
-}
 .about h2 {
   text-align: center;
 }
 
 .about img {
-  margin-bottom: 32px;
+  margin: 0 24px 24px 0;
+}
+.yogaphoto {
+  float: left;
+  max-height: 400px;
 }
 
 .contact {
@@ -213,13 +198,6 @@ caption {
   padding: 10px 0;
 }
 
-.post-author img {
-  display: block;
-  max-width: 440px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
 .post-author span {
   margin-left: 16px;
 }
@@ -232,7 +210,7 @@ div.react-calendar {
   margin: 0 auto;
   width: 700px;
   margin-bottom: 20px;
-  border: none;
+  border: 2px solid rgb(233, 232, 232);
   border-radius: 8px;
   color: inherit;
 }
