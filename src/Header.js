@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-//import logo from "./logo.svg";
+import Logo from "./Logo";
 
 export default function Header() {
   return (
     <div id="header">
       <div className="container">
         <Link to="/" id="header-title">
-          <em>Yoga with Laura</em>
+          <Logo />
         </Link>
         <Link to="/about">About</Link>
         <Link to="/timetable">Timetable</Link>

@@ -39,7 +39,7 @@ export default function Home() {
             </p>
             <ul>
               <li>
-                <h4>Pigeon Pose</h4>
+                <h3>Pigeon Pose</h3>
                 <p>
                   Starting in <em>Downward Facing Dog</em> bring your left leg
                   up into a <em>Down Dog Split</em>. Bend your left knee and
@@ -61,7 +61,7 @@ export default function Home() {
                 <img src={pigeonpose} alt="" />
               </li>
               <hr />
-              <h4>Sukhasana Easy Pose </h4>
+              <h3>Sukhasana Easy Pose </h3>
               <p>
                 <em>Easy Pose </em>is a relaxing hip-opening pose that stretches
                 and strengthens the back and is used during meditation practice.
@@ -76,7 +76,7 @@ export default function Home() {
 
               <li>
                 <hr />
-                <h4>Warrior II </h4>
+                <h3>Warrior II </h3>
                 <p>
                   Let's start in <em>Mountain pose (Tadasana)</em> and take a
                   big step back with our right leg. Align your right foot with
@@ -94,7 +94,7 @@ export default function Home() {
               </li>
               <li>
                 <hr />
-                <h4>Seated Twist</h4>
+                <h3>Seated Twist</h3>
                 <p>
                   Sit cross-legged with one leg folded in front of the other and
                   your back straight. Next bring your left hand to your right
@@ -110,7 +110,7 @@ export default function Home() {
 
               <li>
                 <hr />
-                <h4 class="warrior">Warrior I</h4>
+                <h3 class="warrior">Warrior I</h3>
                 <p>
                   Begin standing, then step your right foot forward. Keep your
                   toes pointing to the top of the mat and bend your knee into a

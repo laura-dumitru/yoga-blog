@@ -14,38 +14,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-.App {
-  flex: 1 0 auto;
-}
-
-a:any-link {
-  color: inherit;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  text-align: center;
-  margin-top: 0;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #d3e0ea;
-  margin: 20px auto;
-}
-.about-hr {
-  width: 100%;
-}
-
-p {
-  line-height: 1.5;
-}
-.post-content p {
-  margin-bottom: 40px;
-}
-
 ul {
   padding-inline-start: 0;
 }
@@ -56,6 +24,42 @@ img {
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d3e0ea;
+  margin: 20px auto;
+}
+.App {
+  flex: 1 0 auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:any-link {
+  color: inherit;
+}
+
+.about-hr {
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+.post-content p {
+  margin-bottom: 40px;
 }
 
 .warrior {
@@ -71,6 +75,8 @@ strong {
 
 .story {
   text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .story * {
   float: right;
@@ -84,6 +90,10 @@ li {
   list-style: none;
 }
 
+.post {
+  margin: 0 auto;
+  max-width: 1000px;
+}
 .post-container {
   margin: 0 32px;
 }
@@ -99,7 +109,6 @@ li {
 }
 
 .container {
-  max-width: 1000px;
   margin: 0 auto;
 }
 #header .container {
@@ -108,31 +117,24 @@ li {
 
 #header {
   background-color: #d3e0ea;
-  line-height: 150px;
+  line-height: 140px;
   margin-bottom: 32px;
 }
 #header a {
   text-decoration: none;
   letter-spacing: 0.1em;
-  margin: 0 20px;
+  margin: 0 34px;
 }
 
 #header-title {
   font-size: 20px;
   font-weight: bold;
 }
-#header-title:before {
-  content: "🧘🏻‍♀️";
-}
 
-#header-nav {
-  display: block;
-  float: right;
-  margin-top: 0;
-}
-#header-nav li {
-  display: inline;
-  padding-left: 20px;
+#logo {
+  fill: rgb(63, 62, 62);
+  width: 128px;
+  margin-bottom: -2px;
 }
 
 #footer {
@@ -150,12 +152,8 @@ li {
   text-align: center;
   vertical-align: top;
 }
-a {
-  text-decoration: none;
-  font-weight: bold;
-}
 
-.about h2 {
+.about h1 {
   text-align: center;
 }
 
@@ -186,7 +184,7 @@ a {
   text-align: center;
 }
 .confirmation {
-  color: black;
+  color: rgb(63, 62, 62);
   text-align: center;
 }
 
