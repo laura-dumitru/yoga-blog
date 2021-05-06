@@ -30,13 +30,13 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin-top: 0;
+  margin: 0;
 }
 
 hr {
   border: none;
   border-top: 1px solid #d3e0ea;
-  margin: 20px auto;
+  margin: 24px auto;
 }
 .App {
   flex: 1 0 auto;
@@ -75,8 +75,8 @@ strong {
 
 .story {
   text-align: left;
-  margin-top: 40px;
   margin-bottom: 40px;
+  padding-right: 20px;
 }
 .story * {
   float: right;
@@ -141,7 +141,7 @@ li {
   flex-shrink: 0;
   background-color: #d3e0ea;
   padding: 20px 0;
-  margin-top: 100px;
+  margin-top: 128px;
 }
 #footer h3 {
   letter-spacing: 0.1em;
@@ -203,15 +203,26 @@ caption {
 div .title {
   margin-top: 30px;
 }
+
+.timetable {
+  margin: 0 32px;
+}
+
 div.react-calendar {
   font-family: inherit;
   margin: 0 auto;
-  width: 700px;
-  margin-bottom: 20px;
-  border: 1px solid #d3e0ea;
-  border-radius: 8px;
+  padding: 12px;
+  width: 800px;
+  margin-bottom: 24px;
   color: inherit;
+  background-color: white;
+  border: 1px solid #d3e0ea;
+  border-radius: 16px;
 }
+.yogaClass {
+  text-align: center;
+}
+
 button.react-calendar__month-view__days__day--weekend {
   color: inherit;
 }
@@ -220,6 +231,11 @@ button.react-calendar__tile:enabled:focus {
   background-color: #d3e0ea;
   border-radius: 8px;
 }
+
+button.react-calendar__tile--hasActive.react-calendar__year-view__months__month {
+  display: none;
+}
+
 button.react-calendar__tile--now {
   background: #d3e0ea;
   border-radius: 8px;
@@ -237,10 +253,6 @@ button.react-calendar__tile--active {
 button[class^="react-calendar__navigation__"]:hover {
   background: #d3e0ea !important;
   border-radius: 8px;
-}
-
-.yogaClass {
-  text-align: center;
 }
 
 .reserve,

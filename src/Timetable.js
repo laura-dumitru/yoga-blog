@@ -55,13 +55,15 @@ export default function Timetable() {
   return (
     <div className="title">
       <h2>Class Timetable</h2>]
-      <Calendar onClickDay={showYogaClass} value={value} />
-      <div className="yogaClass">
-        <h4>{yogaClass.name}</h4>
-        <p>{yogaClass.with}</p>
-        <p>{yogaClass.time}</p>
-        <p>{yogaClass.level}</p>
-        <p>{yogaClass.description}</p>
+      <div className="timetable">
+        <Calendar onClickDay={showYogaClass} value={value} />
+        <div className="yogaClass">
+          <h4>{yogaClass.name}</h4>
+          <p>{yogaClass.with}</p>
+          <p>{yogaClass.time}</p>
+          <p>{yogaClass.level}</p>
+          <p>{yogaClass.description}</p>
+        </div>
       </div>
     </div>
   ); //value={value}
