@@ -20,10 +20,8 @@ ul {
 
 img {
   display: block;
+  margin: 20px auto;
   max-width: 440px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 
 h1,
@@ -36,7 +34,7 @@ h3 {
 hr {
   border: none;
   border-top: 1px solid #d3e0ea;
-  margin: 24px auto;
+  margin: 32px auto;
 }
 .App {
   flex: 1 0 auto;
@@ -49,10 +47,6 @@ a {
 
 a:any-link {
   color: inherit;
-}
-
-.about-hr {
-  width: 100%;
 }
 
 p {
@@ -117,7 +111,7 @@ li {
 
 #header {
   background-color: #d3e0ea;
-  line-height: 140px;
+  line-height: 128px;
   margin-bottom: 32px;
 }
 #header a {
@@ -156,9 +150,12 @@ li {
 .about h1 {
   text-align: center;
 }
+.about-hr {
+  width: 100%;
+}
 
 .about img {
-  margin: 0 24px 24px 0;
+  margin: 0 32px 32px 0;
 }
 .yogaphoto {
   float: left;
@@ -201,7 +198,7 @@ caption {
 }
 
 div .title {
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .timetable {
@@ -274,4 +271,24 @@ button:hover {
 }
 button a {
   font-weight: normal;
+}
+
+@media (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+  .yogaphoto {
+    max-height: inherit;
+  }
+
+  #header {
+    line-height: 80px;
+  }
+  #header-title {
+    display: block;
+    text-align: center;
+  }
+  #logo {
+    margin-bottom: -32px;
+  }
 }
