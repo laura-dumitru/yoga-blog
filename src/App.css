@@ -52,9 +52,6 @@ a:any-link {
 p {
   line-height: 1.5;
 }
-.post-content p {
-  margin-bottom: 40px;
-}
 
 .warrior {
   height: 10px;
@@ -191,10 +188,6 @@ caption {
   font-size: 130%;
   font-weight: bold;
   padding: 10px 0;
-}
-
-.post-author span {
-  margin-left: 16px;
 }
 
 div .title {

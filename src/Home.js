@@ -11,10 +11,7 @@ export default function Home() {
     <div id="content">
       <div className="post-container">
         <div className="post">
-          <div className="post-author">
-            <img src={plants} className="profile" alt="" />
-            <br />
-          </div>
+          <img src={plants} className="profile" alt="" />
 
           <p className="post-title">
             A warm welcome to
