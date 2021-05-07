@@ -5,7 +5,7 @@ import pigeonpose from "./img/pigeonpose.jpg";
 import flowers from "./img/flowers.jpg";
 import twist from "./img/twist.jpg";
 import cross from "./img/cross.jpg";
-
+import "./Home.css";
 export default function Home() {
   return (
     <div id="content">

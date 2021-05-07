@@ -1,0 +1,15 @@
+#footer {
+  flex-shrink: 0;
+  background-color: #d3e0ea;
+  padding: 20px 0;
+  margin-top: 128px;
+}
+#footer h3 {
+  letter-spacing: 0.1em;
+}
+
+#footer .column {
+  min-width: 300px;
+  text-align: center;
+  vertical-align: top;
+}

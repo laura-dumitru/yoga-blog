@@ -1,6 +1,7 @@
 import React from "react";
 import tree from "./img/tree.jpg";
 import chair from "./img/chair.jpg";
+import "./Contact.css";
 
 export default function Contact() {
   function reserve() {

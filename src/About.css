@@ -1,0 +1,27 @@
+.about h1 {
+  text-align: center;
+}
+.about-hr {
+  width: 100%;
+}
+
+.about img {
+  margin: 0 32px 32px 0;
+}
+.yogaphoto {
+  float: left;
+  max-height: 400px;
+}
+
+.story {
+  text-align: left;
+  margin-bottom: 40px;
+  padding-right: 20px;
+}
+.story * {
+  float: right;
+}
+.story strong,
+.story em {
+  float: none;
+}

@@ -1,0 +1,22 @@
+#header .container {
+  max-width: 600px;
+}
+
+#header {
+  background-color: #d3e0ea;
+  line-height: 128px;
+  margin-bottom: 32px;
+}
+#header a {
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  margin: 0 34px;
+}
+
+#header-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+#header .container {
+  max-width: 600px;
+}

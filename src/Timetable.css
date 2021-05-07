@@ -1,0 +1,53 @@
+div.react-calendar {
+  font-family: inherit;
+  margin: 0 auto;
+  padding: 12px;
+  width: 800px;
+  margin-bottom: 24px;
+  color: inherit;
+  background-color: white;
+  border: 1px solid #d3e0ea;
+  border-radius: 16px;
+}
+
+.timetable {
+  margin: 0 32px;
+}
+
+button.react-calendar__month-view__days__day--weekend {
+  color: inherit;
+}
+button.react-calendar__tile:enabled:hover,
+button.react-calendar__tile:enabled:focus {
+  background-color: #d3e0ea;
+  border-radius: 8px;
+}
+
+button.react-calendar__tile--hasActive.react-calendar__year-view__months__month {
+  display: none;
+}
+
+button.react-calendar__tile--now {
+  background: #d3e0ea;
+  border-radius: 8px;
+}
+button.react-calendar__tile--active:enabled:hover,
+button.react-calendar__tile--active:enabled:focus {
+  background: #d3e0ea;
+  border-radius: 8px;
+}
+button.react-calendar__tile--active {
+  background: #d3e0ea;
+  color: white;
+  border-radius: 8px;
+}
+button[class^="react-calendar__navigation__"]:hover {
+  background: #d3e0ea !important;
+  border-radius: 8px;
+}
+.yogaClass {
+  text-align: center;
+}
+.title h2 {
+  margin-bottom: 20px;
+}

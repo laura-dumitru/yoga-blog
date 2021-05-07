@@ -1,5 +1,6 @@
 import React from "react";
 import peace from "./img/peace.jpg";
+import "./About.css";
 
 export default function About() {
   return (

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+import "./Timetable.css";
 
 export default function Timetable() {
   const [value, setValue] = useState(new Date());
@@ -54,7 +55,7 @@ export default function Timetable() {
 
   return (
     <div className="title">
-      <h2>Class Timetable</h2>]
+      <h2>Class Timetable</h2>
       <div className="timetable">
         <Calendar onClickDay={showYogaClass} value={value} />
         <div className="yogaClass">
