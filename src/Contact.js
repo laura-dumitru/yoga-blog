@@ -26,10 +26,10 @@ export default function Contact() {
           monthly membership. Your first 2 taster Yoga classes will be{" "}
           <strong>FREE</strong>.<br /> <br />
           We encourage everyone to be logged in on Zoom at least 5 minutes prior
-          to the scheduled time. We love receiving feedback from our community,
-          therefore we have a dedicated 5-10 minute question time at the end of
-          each class. All you need is your Yoga mat, a bottle of water, a
-          cushion or towel for support and your smile!
+          to the scheduled time. We love receiving feedback, therefore we have a
+          5-10 minute question time at the end of each class. All you need is
+          your Yoga mat, a bottle of water, a cushion or towel for support and
+          your smile!
           <br />
           <br />
           To book please click the <em>Reserve space </em>button below and leave
