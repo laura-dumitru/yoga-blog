@@ -9,7 +9,9 @@ export default function Contact() {
     prompt("What is your telephone number?");
 
     let subscribe = document.querySelector(".confirmation");
-    subscribe.innerHTML = `<strong>Thank you <span><em>${name}</em></span> ! We'll be in touch!</strong>`;
+    if (name != null && name.length) {
+      subscribe.innerHTML = `<strong>Thank you <span><em>${name}</em></span> ! We'll be in touch!</strong>`;
+    }
   }
 
   return (
