@@ -75,16 +75,16 @@ export default function Home() {
                 <hr />
                 <h3>Warrior II </h3>
                 <p>
-                  Let's start in <em>Mountain pose (Tadasana)</em> and take a
-                  big step back with our right leg. Align the right foot with
-                  the short edge of the mat so that the toes point toward the
-                  long edge of the mat. The left foot is straight with the toes
-                  pointing forward. Bend the left knee so that it's in a 90
-                  degree angle above your ankle. Keep your back leg straight and
-                  the back foot engaged and let your hip sink down. Raise your
-                  arms parallel to the floor with the palms facing down. Turn
-                  your head to look towards the front hand. Keep your spine
-                  straight and your body in a vertical line.
+                  Let's start in <em>Mountain pose (Tadasana)</em>. Take a step
+                  back with the right leg. Align the right foot with the short
+                  edge of the mat so that the toes point toward the long edge of
+                  the mat. The left foot is straight with the toes pointing
+                  forward. Bend the left knee so that it's in a 90 degree angle
+                  above your ankle. Keep your back leg straight and the back
+                  foot engaged and let your hip sink down. Raise your arms
+                  parallel to the floor with the palms facing down. Turn your
+                  head to look towards the front hand. Keep your spine straight
+                  and your body in a vertical line.
                   <br />
                   <img src={warrior} alt="" />
                 </p>
