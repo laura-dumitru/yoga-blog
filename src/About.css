@@ -25,3 +25,9 @@
 .story em {
   float: none;
 }
+
+@media (max-width: 480px) {
+  .yogaphoto {
+    max-height: inherit;
+  }
+}
