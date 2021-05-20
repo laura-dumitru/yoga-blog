@@ -18,6 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "compress": "sips -s format jpeg -s formatOptions normal -s dpiWidth 72 -s dpiHeight 72 -m '/System/Library/ColorSync/Profiles/sRGB Profile.icc' src/img/*.{png,jp*g}",
     "build": "react-scripts build",
     "test": "react-scripts test",
     
