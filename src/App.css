@@ -10,7 +10,7 @@ body {
   font-family: "Alice", serif;
   font-weight: lighter;
   color: rgb(63, 62, 62);
-  background-color: #f6f5f5;
+  background-color: #fcfefe;
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +33,7 @@ h3 {
 
 hr {
   border: none;
-  border-top: 1px solid #d3e0ea;
+  border-top: 0.2px solid #66bfbf;
   margin: 32px auto;
 }
 .App {

@@ -28,7 +28,7 @@
   margin: 20px auto;
   border-radius: 8px;
   border: none;
-  background-color: #d3e0ea;
+  background-color: #f76b8a;
   outline: none;
   padding: 16px 16px;
   font-size: 16px;
@@ -36,7 +36,7 @@
   cursor: pointer;
 }
 button:hover {
-  background-color: #1687a7;
+  background-color: #fcfefe;
 }
 button a {
   font-weight: normal;

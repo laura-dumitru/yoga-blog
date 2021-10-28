@@ -6,7 +6,7 @@ div.react-calendar {
   margin-bottom: 24px;
   color: inherit;
   background-color: white;
-  border: 1px solid #d3e0ea;
+  border: 0.2px solid #66bfbf;
   border-radius: 16px;
 }
 
@@ -19,7 +19,7 @@ button.react-calendar__month-view__days__day--weekend {
 }
 button.react-calendar__tile:enabled:hover,
 button.react-calendar__tile:enabled:focus {
-  background-color: #d3e0ea;
+  background-color: #f76b8a;
   border-radius: 8px;
 }
 
@@ -28,21 +28,21 @@ button.react-calendar__tile--hasActive.react-calendar__year-view__months__month 
 }
 
 button.react-calendar__tile--now {
-  background: #d3e0ea;
+  background: #f76b8a;
   border-radius: 8px;
 }
 button.react-calendar__tile--active:enabled:hover,
 button.react-calendar__tile--active:enabled:focus {
-  background: #d3e0ea;
+  background: #f76b8a;
   border-radius: 8px;
 }
 button.react-calendar__tile--active {
-  background: #d3e0ea;
-  color: white;
+  background: #f76b8a;
+  color: black;
   border-radius: 8px;
 }
 button[class^="react-calendar__navigation__"]:hover {
-  background: #d3e0ea !important;
+  background: #f76b8a !important;
   border-radius: 8px;
 }
 .yogaClass {
