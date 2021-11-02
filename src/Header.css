@@ -1,5 +1,9 @@
 #header {
-  background-color: #66bfbf;
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
   line-height: 128px;
   margin-bottom: 32px;
 }
