@@ -23,6 +23,7 @@
 
 .reserve,
 .join {
+  color: rgb(63, 62, 62);
   display: block;
   line-height: 8px;
   margin: 20px auto;
@@ -32,12 +33,11 @@
   outline: none;
   padding: 16px 16px;
   font-size: 16px;
+  font-weight: bold;
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
+
 button:hover {
   background: rgb(245, 239, 249) 30.1%;
-}
-button a {
-  font-weight: normal;
 }
