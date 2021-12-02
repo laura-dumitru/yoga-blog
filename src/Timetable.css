@@ -4,7 +4,7 @@ div.react-calendar {
   padding: 12px;
   width: 800px;
   margin-bottom: 24px;
-  color: inherit;
+  color: black;
   background-color: white;
   border: 0.1px solid rgb(207, 211, 236) 100.2%;
   border-radius: 16px;
@@ -15,7 +15,7 @@ div.react-calendar {
 }
 
 button.react-calendar__month-view__days__day--weekend {
-  color: inherit;
+  color: black;
 }
 button.react-calendar__tile:enabled:hover,
 button.react-calendar__tile:enabled:focus {
