@@ -14,6 +14,15 @@ div.react-calendar {
   margin: 0 32px;
 }
 
+.react-calendar button {
+  color: black !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+.react-calendar button:focus {
+  box-shadow: none !important;
+}
+
 button.react-calendar__month-view__days__day--weekend {
   color: black;
 }
