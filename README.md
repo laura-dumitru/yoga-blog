@@ -1,3 +1,17 @@
+# Yoga page with React calendar
+
+A multiple page project built with **React** which includes a calendar feature. The calendar shows the **Yoga class timetable** and **instructor name** for the week when the user clicks into it. I built this project as I am passionate about **Yoga**.  
+The page uses a React calendar component. The user can click and change the day, month or year.  
+Technologies learned: **HTML, CSS, JavaScript, React**.
+
+How to use: 
+* `npm start in terminal`
+* Click on _Timetable_ and pick the day of the week that you want.
+* The available Yoga classes will be displayed underneath.
+* Click on _Contact_ where you will see a _Reserve space_ button. Click to input your details to register your interest in the class.
+
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
